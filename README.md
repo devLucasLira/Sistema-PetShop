@@ -40,5 +40,5 @@ Um projeto desenvolvido em Java com foco na prática dos conceitos de **Programa
 Desenvolvido por **Lucas Lira**.
 
 - GitHub: [@devLucasLira](https://github.com/devLucasLira) 
-- LinkedIn: [Lucas Lira](https://www.linkedin.com/in/seu-perfil)
-- E-mail: [dev.lucaslira@gmail.com](mailto:Dev.lucaslira@gmail.com)
+- LinkedIn: [Lucas Lira](https://www.linkedin.com/in/lucas-lira0508/)
+- E-mail: Dev.lucaslira@gmail.com
