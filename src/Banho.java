@@ -1,12 +1,14 @@
 public class Banho {
 
-    private boolean limpo;
+    private boolean limpo = true;
 
-    private int agua;
+    private int agua = 30;
 
-    private int Shampoo;
+    private int Shampoo = 10;
 
     private Pet pet;
+
+
 
     public void banhoDoPET(){
         if (this.pet == null){
@@ -16,7 +18,7 @@ public class Banho {
         this.agua -= 10;
         this.Shampoo -= 2;
         pet.setLimpo(true);
-            System.out.println("Banho terminado, por favor remova o" +pet.getNome()+ "Da plataforma de banho.");
+            System.out.println("Banho terminado, por favor remova " +pet.getNome()+ " Da plataforma de banho.");
     }
     public void coloqueAgua(){
         if (agua == 30){
@@ -52,7 +54,7 @@ public class Banho {
 
         }
         if (TemPet()){
-            System.out.println("O pet "+ this.pet.getNome() + "ja esta tomando banho na plataforma.");
+            System.out.println( this.pet.getNome() + " ja esta tomando banho na plataforma.");
             return;
         }
         this.pet = pet;
@@ -60,7 +62,7 @@ public class Banho {
 
     public void BanhoFinalizado(){
         this.limpo = this.pet.isLimpo();
-            System.out.println("o Banho do"+ pet.getNome()+ "foi finalizado com sucesso!");
+            System.out.println(pet.getNome()+ " Já terminou o banho!");
         this.pet = null;
     }
 
