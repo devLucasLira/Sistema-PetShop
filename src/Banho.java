@@ -52,7 +52,7 @@ public class Banho {
 
         }
         if (TemPet()){
-            System.out.println("O pet"+ this.pet.getNome()+ "ja esta tomando banho na plataforma.");
+            System.out.println("O pet "+ this.pet.getNome() + "ja esta tomando banho na plataforma.");
             return;
         }
         this.pet = pet;
