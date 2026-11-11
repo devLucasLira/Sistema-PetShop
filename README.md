@@ -8,9 +8,9 @@ Um projeto desenvolvido em Java com foco na prática dos conceitos de **Programa
 
 - [x] Cadastro de Pets com atributos de estado (nome, limpo/sujo).
 - [x] Módulo de Banho com controle de consumo de insumos:
-    - Consumo de água por atendimento.
-    - Consumo de shampoo por atendimento.
-    - Verificação de capacidade máxima e abastecimento dos reservatórios.
+    - [x] Consumo de água por atendimento.
+    - [x] Consumo de shampoo por atendimento.
+    - [x] Verificação de capacidade máxima e abastecimento dos reservatórios.
 - [ ] Novas rotinas de atendimento *(em desenvolvimento)*.
 
 ---
